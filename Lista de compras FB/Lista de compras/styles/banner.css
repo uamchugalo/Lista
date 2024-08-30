@@ -1,0 +1,12 @@
+/* Define a classe para centralizar texto e adicionar margem vertical */
+.margem {
+    text-align: center; /* Centraliza o texto dentro do elemento */
+    margin: 20px 0; /* Adiciona uma margem de 20px acima e abaixo do elemento */
+}
+
+/* Estiliza imagens dentro de elementos com a classe 'margem' */
+.margem img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção original da imagem */
+    border-radius: 10px; /* Arredonda os cantos da imagem */
+}

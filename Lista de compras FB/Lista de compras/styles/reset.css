@@ -1,0 +1,12 @@
+/* Remove margens e espaçamentos padrão de todos os elementos */
+* {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamentos internos padrão */
+    box-sizing: border-box; /* Inclui bordas e padding no tamanho total do elemento */
+}
+
+/* Define altura total e fonte padrão para o corpo e o HTML */
+body, html {
+    height: 100%; /* Define altura de 100% para preencher a tela */
+    font-family: 'Arial', sans-serif; /* Define a fonte padrão como Arial ou outra fonte sem serifa */
+}
